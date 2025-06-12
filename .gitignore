@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+/api/node_modules/
+/client/node_modules/
+
+# Build outputs
+/client/build/
+/client/dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/api/.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/api/logs/
+*.log
+
+# Uploaded files (prevent checking in user uploads)
+/api/uploads/*
+!/api/uploads/.gitkeep
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+/coverage/
+/client/coverage/
+
+# Misc
+.DS_Store
+Thumbs.db

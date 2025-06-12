@@ -1,0 +1,2 @@
+# This file exists so that the uploads directory will be preserved in git
+# The directory is needed for file uploads to work correctly 
